@@ -1,16 +1,18 @@
 {
-  "name": "cors-anywhere",
-  "version": "0.4.4",
-  "description": "CORS Anywhere is a reverse proxy which adds CORS headers to the proxied request. Request URL is taken from the path",
+  "name": "@jonz94/cors-anywhere",
+  "version": "1.0.0",
+  "description": "This is a fork of https://github.com/Rob--W/cors-anywhere",
   "license": "MIT",
-  "author": "Rob Wu <rob@robwu.nl>",
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rob--W/cors-anywhere.git"
+    "url": "https://github.com/jonz94/cors-anywhere.git"
   },
   "bugs": {
-    "url": "https://github.com/Rob--W/cors-anywhere/issues/",
-    "email": "rob@robwu.nl"
+    "url": "https://github.com/jonz94/cors-anywhere/issues/"
   },
   "keywords": [
     "cors",
@@ -22,30 +24,14 @@
   "main": "./lib/cors-anywhere.js",
   "files": [
     "lib/",
-    "test/",
-    "Procfile",
-    "demo.html",
     "server.js"
   ],
   "dependencies": {
-    "http-proxy": "1.11.1",
-    "proxy-from-env": "0.0.1"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.6",
-    "eslint": "^2.2.0",
-    "istanbul": "^0.4.2",
-    "lolex": "^1.5.0",
-    "mocha": "^3.4.2",
-    "nock": "^8.2.1",
-    "supertest": "^2.0.1"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "test": "mocha ./test/test*.js --reporter spec",
-    "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
+    "http-proxy": "1.18.1",
+    "proxy-from-env": "1.1.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=20.14.0",
+    "pnpm": ">=9"
   }
 }
