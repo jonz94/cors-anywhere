@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonz94/cors-anywhere.git"
+    "url": "https://github.com/jonz94/docker-cors-anywhere.git"
   },
   "bugs": {
-    "url": "https://github.com/jonz94/cors-anywhere/issues/"
+    "url": "https://github.com/jonz94/docker-cors-anywhere/issues/"
   },
   "keywords": [
     "cors",
     "cross-domain",
     "http-proxy",
     "proxy",
-    "heroku"
+    "docker"
   ],
   "main": "./lib/cors-anywhere.js",
   "files": [
