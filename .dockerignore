@@ -1,0 +1,6 @@
+*
+
+!server.js
+!lib/**/*.js
+!package.json
+!pnpm-lock.yaml
